@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* 0. Background  / Body */
+
+body
+{
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Page content formatting */
+
+.timetable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width: 60%;
+  align-items: center;
+}

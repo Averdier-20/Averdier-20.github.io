@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face {
+  font-family: 'Hackney';
+  src: url('Fonts/Hackney/Hackney.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 0. Background  / Body */
+
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Page content formatting */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.intro{
+  display: flex;
+  color: orange;
+  background-size: cover;
+  position: fixed;
+  font-family: "Hackney";
+  top: 20%;
+  left: 30%;
+  font-size: 28px;
+}
+
+.typing{
+  display: block;
+  position: relative;
+  margin-left: 30px;
+}
+
+.typing::after{
+  content: "";
+  position: absolute;
+  right: -5px;
+  width: 1px;
+  height: 95%;
+  border-right: 5px solid white;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
